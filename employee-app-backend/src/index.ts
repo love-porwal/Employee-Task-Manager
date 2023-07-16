@@ -3,6 +3,7 @@ import express, { Express } from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import employeeRoutes from './routes/employeeRoutes';
+import cors from 'cors';
 
 dotenv.config();
 
