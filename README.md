@@ -35,7 +35,7 @@ The application is deployed and can be accessed using the following links:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/employee-app.git
+   git clone https://github.com/love-porwal/Employee-Task-Manager.git
    
 2. Install the dependencies for the backend:
   ```bash
