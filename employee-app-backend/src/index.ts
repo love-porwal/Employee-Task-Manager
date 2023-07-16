@@ -19,6 +19,10 @@ if (!MONGODB_URI) {
 const app: Express = express();
 
 app.use(express.json());
+
+app.get("/",(req,res)=>{
+res.send("welcome to Employee Task Manager")
+});
 app.use(employeeRoutes);
 
 mongoose
