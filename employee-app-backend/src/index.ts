@@ -20,7 +20,7 @@ if (!MONGODB_URI) {
 const app: Express = express();
 
 app.use(express.json());
-
+app.use(cors({origin:"*"}))
 app.get("/",(req,res)=>{
 res.send("welcome to Employee Task Manager")
 });
