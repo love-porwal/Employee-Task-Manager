@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Employee App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1> Employee App</h1>
+    <div id="loader">
+        <span id="loader-text">Loading...</span>
+      </div>
+    <div class="container">
+      <div class="card">
+        <form id="employeeForm">
+          <label class="form-label" for="nameInput">Name:</label>
+          <input class="form-input" type="text" id="nameInput" required /><br />
+          <label class="form-label" for="titleInput">Title:</label>
+          <input
+            class="form-input"
+            type="text"
+            id="titleInput"
+            required
+          /><br />
+          <label class="form-label" for="departmentInput">Department:</label>
+          <select class="form-input" id="departmentInput" required>
+            <option value="#">Select</option>
+            <option value="HR">HR</option>
+            <option value="Tech">Tech</option>
+            <option value="Product">Product</option>
+            <option value="Leadership">Leadership</option></select
+          ><br />
+          <label class="form-label" for="salaryInput">Annual Salary:</label>
+          <input
+            class="form-input"
+            type="number"
+            id="salaryInput"
+            required
+          /><br />
+          <button class="form-button" type="submit">Create Employee</button>
+        </form>
+      </div>
+    </div>
+
+    <table id="employeeTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Title</th>
+          <th>Department</th>
+          <th>Annual Salary</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
