@@ -67,6 +67,6 @@ npm test
 - To delete an employee, click the "Delete" button next to the respective employee. The employee will be marked as deleted (soft delete) in the database.
 - The application also captures logs for the history and auditing purposes.
 
-  
-![Screenshot (353)](https://github.com/love-porwal/Employee-Task-Manager/assets/112820391/d9ef5875-38eb-4565-b47e-57f647c062d2)
+1.![Screenshot (353)](https://github.com/love-porwal/Employee-Task-Manager/assets/112820391/d9ef5875-38eb-4565-b47e-57f647c062d2)
+2.![Screenshot (352)](https://github.com/love-porwal/Employee-Task-Manager/assets/112820391/92f9a80b-c54e-44a6-b0e7-01386d89aef2)
 
